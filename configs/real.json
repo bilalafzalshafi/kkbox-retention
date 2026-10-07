@@ -1,0 +1,22 @@
+{
+  "mode": "real",
+  "transactions": ["data/raw/transactions.csv", "data/raw/transactions_v2.csv"],
+  "logs": ["data/raw/user_logs.csv", "data/raw/user_logs_v2.csv"],
+  "transactions_start": "2015-01-01",
+  "observed_through": "2017-03-31",
+  "logs_start": "2015-01-01",
+  "logs_through": "2017-03-31",
+  "snapshot_start": "2016-04-01",
+  "snapshot_end": "2017-03-01",
+  "validation_months": ["2016-10-01"],
+  "test_months": ["2017-01-01", "2017-02-01"],
+  "sample_modulus": 100,
+  "sample_remainder": 0,
+  "min_training_rows": 200,
+  "bootstrap_reps": 500,
+  "seed": 42,
+  "memory_limit": "3GB",
+  "output": "outputs/real",
+  "coverage_confirmed": true,
+  "hash_sources": false
+}

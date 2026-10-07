@@ -1,0 +1,1 @@
+Place authenticated, extracted KKBOX transaction and user-log CSVs here. Required default names are transactions.csv, transactions_v2.csv, user_logs.csv, and user_logs_v2.csv. No real data is included in the package. Update and confirm configs/real.json coverage before running. Do not commit raw competition data or credentials to a public repository.
